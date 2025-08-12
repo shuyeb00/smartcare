@@ -1,0 +1,35 @@
+.site-header {
+  background: var(--card);
+  filter: drop-shadow(0 4px 6px rgba(0, 76, 255, 0.25));
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-inner {
+  padding: 0.7rem 1rem;
+}
+.logo img {
+  height: 40px;
+}
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.header-actions {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.user-badge {
+  background: var(--bg);
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  font-weight: 600;
+}
+@media (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+}

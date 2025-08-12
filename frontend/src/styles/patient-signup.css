@@ -1,0 +1,70 @@
+/* patient-signup.css */
+
+section {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.signup-panel {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+.signup-panel h3 {
+  margin-bottom: 1.5rem;
+  color: #222;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.signup-form input {
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: 1.8px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+  font-family: inherit;
+}
+
+.signup-form input:focus {
+  border-color: #0052cc;
+  outline: none;
+}
+
+.btn.primary {
+  background-color: #0052cc;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.85rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.btn.primary:hover {
+  background-color: #003d99;
+}
+
+@media (max-width: 500px) {
+  .signup-panel {
+    padding: 1.5rem 1.5rem;
+  }
+}

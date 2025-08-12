@@ -1,0 +1,41 @@
+.auth-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(2, 6, 23, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 60;
+}
+.auth-card {
+  background: var(--card);
+  padding: 1.4rem;
+  border-radius: 12px;
+  width: 380px;
+  position: relative;
+}
+.close-btn {
+  position: absolute;
+  right: 12px;
+  top: 8px;
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+.auth-form input {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #e6e9ee;
+}
+.role-choice {
+  display: flex;
+  gap: 1rem;
+  margin: 0.6rem 0;
+}
+.switch {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+}
