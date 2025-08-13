@@ -44,7 +44,8 @@ This setup allows real-time development where React code changes update instantl
 
 ## Video Demo Link
 
-`[VIDEO_LINK_HERE](https://youtu.be/LNi-VNI71gk)`
+`[VIDEO_LINK_HERE]
+(https://www.loom.com/share/f847df460c5f4f1a9a4d5c7277534a93?sid=26ab1b49-0065-4a71-ac0b-4dc0bfbd8813)`
 
 ## Contributors & Contributions
 
