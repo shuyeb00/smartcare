@@ -48,7 +48,7 @@ This setup allows real-time development where React code changes update instantl
 
 ## Contributors & Contributions
 
-* **Toufiqur Rahman Tasin (231-115-345)** — Made the frontend functional with JavaScript, connected it to the backend using Express.js, implemented authentication, helped design the frontend UI, and contributed to bug fixing across the project.
+* **Toufiqur Rahman Tasin (231-115-345)** — Made the frontend functional, connected it to the backend using Express.js, implemented authentication, setup the API connection, helped design the frontend UI, and contributed to bug fixing across the project.
 * **Mahumudur Rashid (231-115-335)** — Worked on the Login, Signup, and Service pages using React.js and CSS, setting up the basic structure and functionality for user interaction.
 * **Namira Ahmed Tanha (231-115-323)** — Created the Home, Header, and Contact Us pages, ensuring they were connected within the site flow.
 * **Suheb Ahmed (231-115-322)** — Developed and integrated the MySQL database with the backend, ensured it worked with the frontend, and configured the project to run both frontend and backend from a single server setup.
